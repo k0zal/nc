@@ -2,6 +2,8 @@
 
 A countdown timer that scales text to fill the screen. Built with Angular 21.
 
+**Live Demo:** https://nc-timer.netlify.app/
+
 ## Quick Start
 
 ```bash
