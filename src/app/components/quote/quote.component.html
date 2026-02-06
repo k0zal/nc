@@ -1,0 +1,12 @@
+<div class="quote-container">
+  @if (loading()) {
+    <div class="loading-indicator">
+      <span class="spinner"></span>
+      <span>Loading quote...</span>
+    </div>
+  } @else if (error()) {
+    <p class="quote-text">Could not load quote</p>
+  } @else {
+    <p class="quote-text">{{ quote() }}</p>
+  }
+</div>
