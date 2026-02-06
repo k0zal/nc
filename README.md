@@ -69,7 +69,7 @@ Output goes to `dist/`.
 
 A couple places where the Figma and the written spec didn't quite match:
 
-- **Countdown format** — The Figma shows "20 days, 3 h, 15m, 10s" (space before "h" but not "m" or "s"). Looked like a typo in the Figma, so I went with consistent spacing like the spec describes.
+- **Countdown format** — The written spec shows "3 days, 15 h, 20 m, 5 s" (spaces before all units) but the Figma shows "20 days, 3 h, 15m, 10s" (no space before "m" or "s"). Went with the Figma since that's what the design actually shows.
 - **Date input** — The Figma shows a plain text field for the date. I used a native date picker instead because it's better UX and prevents invalid input. Felt like the right call for a real app.
 
 ## Known Quirk
