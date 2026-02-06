@@ -74,7 +74,7 @@ A couple places where the Figma and the written spec didn't quite match:
 
 ## Known Quirk
 
-- **Date picker clipping in browser mobile mode** — When testing in Chrome DevTools mobile view, the native date picker can clip outside the viewport at the bottom. This is a browser simulation quirk, not a real issue. On an actual iOS/Android device, the native date picker is a modal that slides up from the bottom of the screen, so it never clips. Could be solved with a library like `ng-bootstrap` or `Angular Material` datepicker, but felt like overkill for this app.
+- **Date picker clipping in browser mobile mode** — When testing in Chrome DevTools mobile view, the native date picker can clip outside the viewport at the bottom. This is a browser simulation quirk, not a real issue. On an actual iOS/Android device, the native date picker is a modal that slides up from the bottom of the screen, so it never clips. Could be solved with a library like `ng-bootstrap` or `Angular Material` datepicker, but it felt abit unnecessary for this scope.
 
 ## What I'd Add for Production
 
